@@ -36,7 +36,7 @@ jobs:
       - name: Build frontend
         working-directory: ./frontend
         env:
-          VITE_API_BASE: 'app-badminton-api-66020565-fgbwfzcmb2hyhseg.southeastasia-01.azurewebsites.net'
+          VITE_API_BASE: 'https://app-badminton-api-66020565-fgbwfzcmb2hyhseg.southeastasia-01.azurewebsites.net/courts'
         run: npm run build
 
       - name: Upload frontend artifact
