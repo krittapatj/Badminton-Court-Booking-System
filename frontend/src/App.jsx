@@ -232,7 +232,7 @@ export default function App() {
           <div className="logo">🏸</div>
 
           <div>
-            <h1>Badminton Court Booking</h1>
+            <h1>ICT Badminton Court Booking</h1>
 
             <p>Choose your court and book your playing time.</p>
           </div>
