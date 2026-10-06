@@ -277,6 +277,8 @@ export default function App() {
 
                   <p className="court-type">{court.court_type}</p>
 
+                  <p className="court-description">{court.description}</p>
+
                   <div className="price">
                     ฿{Number(court.price_per_hour)}
                     <span>/ hour</span>

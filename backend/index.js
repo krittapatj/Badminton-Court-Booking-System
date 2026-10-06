@@ -50,7 +50,8 @@ app.get('/courts', async (req, res) => {
         id,
         court_name,
         court_type,
-        price_per_hour
+        price_per_hour,
+        description
       FROM courts
       ORDER BY id
     `);
